@@ -1,0 +1,227 @@
+
+/* page menu principale */
+/* ---------------------------------------------------------------------------------------------------*/
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : 'Poppins', sans-serif;
+
+}
+.hero {
+width : 100%;
+height : 100vh;
+background-image : linear-gradient(rgb(12, 3, 51, 0.3), rgb(12, 3, 51, 0.3));
+position : relative;
+padding : 0 5%;
+align-items : center;
+justify-content : center;
+}
+.hero video {
+position : absolute;
+min-width : 100%;
+min-height : 100%;
+}
+nav {
+width : 100%;
+position : absolute;
+top : 0;
+left : 0;
+align-items : center;
+justify-content : space-between;
+}
+nav ul li {
+list-style : none;
+display : inline-block;
+margin-left : 10px;
+
+}
+
+nav ul {
+margin-left:650px;
+}
+
+
+#connexion{
+border:solid 2px;
+border-radius : 3px;
+}
+
+#connexion:hover {
+background-color:black;
+}
+
+
+
+
+
+nav ul li a {
+text-decoration : none;
+color : #fff;
+font-size : 17px;
+padding : 10px 20px;
+text-transform : uppercase;
+font-family:Snell Roundhand;
+}
+a {
+margin-top : 15px;
+text-decoration : none;
+display : inline-block;
+color : #fff;
+font-size : 24px;
+border : #fff transparent 2px;
+padding : 14px 70px;
+border-radius : 50px;
+
+}
+.content {
+text-align : center;
+}
+.content h1 {
+font-size : 110px;
+color : #fff;
+font-weight : 600;
+position : absolute;
+top : 50%;
+left : 50%;
+transform : translate(-50%,-50%);
+font-family:Snell Roundhand;
+
+}
+.content:hover {
+color : transparent;
+}
+.content a {
+text-decoration : none;
+display : inline-block;
+color : #fff;
+font-size : 24px;
+border : #fff solid 2px;
+padding : 14px 70px;
+border-radius : 50px;
+margin-top : 450px;
+
+}
+
+.content a:hover {
+background-color:black;
+
+
+}
+
+.back-video {
+position : absolute;
+right : 0;
+bottom : 0;
+z-index : -1;
+}
+.para p {
+text-align : center;
+margin-left : 600px;
+position : absolute;
+margin-top : 100px;
+color : red;
+font-size : 30px;
+font-family : fantasy;
+}
+.image-marvel {
+margin-top : 0;
+background-color : black;
+}
+@media {
+.back-video {
+width : 100%;
+height: auto;
+}
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* menu reservation*/
+
+
+.menu_bas {
+  position: relative;
+  margin-top: 20px;
+
+
+}
+
+
+
+
+
+.image {
+  position: relative;
+
+
+
+
+}
+
+.form-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-container form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.recherche {
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  top: 0px
+}
+
+.recherche input[type="submit"] {
+  background-color: #ff6900;
+  color: #fff;
+  padding: 23px 100px 23px 100px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+ position: absolute;
+right: -1102px;
+  text-align: right;
+  
+}
+
+.recherche input[type="submit"]:hover {
+  background-color: #ff5400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  

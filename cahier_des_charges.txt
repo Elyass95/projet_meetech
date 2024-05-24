@@ -1,0 +1,26 @@
+Module "Visiteur"
+inscription.php: Formulaire d'inscription pour les visiteurs.
+connexion.php: Formulaire de connexion pour les visiteurs.
+index.php: Page d'accueil pour les visiteurs avec un aperçu du site et des incitations à s'inscrire.
+traitement_inscription.php: Script PHP pour traiter le formulaire d'inscription.
+traitement_connexion.php: Script PHP pour traiter le formulaire de connexion.
+
+Module "Utilisateur"
+profil.php: Page de gestion du profil pour les utilisateurs.
+recherche.php: Page de recherche et consultation des profils.
+abonnements.php: Page de consultation et choix des offres d'abonnement.
+modification_profil.php: Script PHP pour la gestion et la modification du profil.
+recherche_traitement.php: Script PHP pour traiter les requêtes de recherche.
+abonnement_traitement.php: Script PHP pour traiter les choix d'abonnement.
+
+Module "Abonné"
+messagerie.php: Page de messagerie privée pour les abonnés.
+visiteurs.php: Page de consultation des visiteurs du profil.
+messagerie_traitement.php: Script PHP pour gérer les messages (envoi, réception, suppression).
+visiteurs_traitement.php: Script PHP pour gérer la consultation des visiteurs.
+
+Module "Administrateur"
+gestion_utilisateurs.php: Page de gestion des utilisateurs pour les administrateurs.
+gestion_messages.php: Page de gestion des messages pour les administrateurs.
+gestion_utilisateurs_traitement.php: Script PHP pour gérer la modification et la suppression des profils.
+gestion_messages_traitement.php: Script PHP pour gérer la suppression des messages.
